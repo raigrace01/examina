@@ -24,31 +24,5 @@
     },
     "answer": "B",
     "explanation": "In all cloud models (IaaS, PaaS, SaaS), the customer is always responsible for their own data and information, as well as the identities and access to that data."
-  },
-  {
-    "id": 3,
-    "domain": "Cloud Concepts",
-    "question": "Which expenditure model is used when you pay for Azure services on a monthly basis based on consumption?",
-    "options": {
-      "A": "Capital Expenditure (CapEx)",
-      "B": "Operating Expenditure (OpEx)",
-      "C": "Fixed Cost",
-      "D": "Upfront Investment"
-    },
-    "answer": "B",
-    "explanation": "OpEx (Operating Expenditure) is spending money on services or products now and being billed for them as you use them. There is no upfront cost, and you pay for a service or product as you use it."
-  },
-  {
-    "id": 4,
-    "domain": "Cloud Concepts",
-    "question": "Which cloud deployment model requires the organization to manage the physical hardware?",
-    "options": {
-      "A": "Public Cloud",
-      "B": "Private Cloud",
-      "C": "Hybrid Cloud",
-      "D": "Community Cloud"
-    },
-    "answer": "B",
-    "explanation": "A Private Cloud consists of computing resources used exclusively by one business or organization. The private cloud can be physically located on the company's on-site datacenter, meaning the organization manages the hardware."
   }
 ]

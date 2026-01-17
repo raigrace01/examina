@@ -1,0 +1,282 @@
+[
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which concept describes the ability of a cloud provider to offer lower prices to customers because of their massive scale and efficiency in purchasing and managing infrastructure?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "High Availability",
+                    "isAnswer": false,
+                    "uuid": "b9-q41-c1-uuid"
+                },
+                {
+                    "choice": "Economies of Scale",
+                    "isAnswer": true,
+                    "uuid": "b9-q41-c2-uuid"
+                },
+                {
+                    "choice": "Elasticity",
+                    "isAnswer": false,
+                    "uuid": "b9-q41-c3-uuid"
+                },
+                {
+                    "choice": "Scalability",
+                    "isAnswer": false,
+                    "uuid": "b9-q41-c4-uuid"
+                },
+                {
+                    "choice": "Agility",
+                    "isAnswer": false,
+                    "uuid": "b9-q41-c5-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Economies of Scale</h3><p><b>Economies of Scale</b> is the ability to do things more efficiently or at a lower cost-per-unit when operating at a larger scale. Cloud providers pass these savings to customers.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:00:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:00:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Benefits of Cloud Services",
+                "topic": "Cloud Concepts",
+                "uuid": "b9-q41-main-uuid"
+            },
+            "question_ref": "/question/cloud_concepts_041"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Where should an administrator go to find detailed information about regulatory standards, compliance reports (like ISO, SOC, GDPR), and how Microsoft secures user data?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Marketplace",
+                    "isAnswer": false,
+                    "uuid": "b9-q42-c1-uuid"
+                },
+                {
+                    "choice": "Microsoft Trust Center",
+                    "isAnswer": true,
+                    "uuid": "b9-q42-c2-uuid"
+                },
+                {
+                    "choice": "Azure Active Directory",
+                    "isAnswer": false,
+                    "uuid": "b9-q42-c3-uuid"
+                },
+                {
+                    "choice": "Azure Monitor",
+                    "isAnswer": false,
+                    "uuid": "b9-q42-c4-uuid"
+                },
+                {
+                    "choice": "Azure Advisor",
+                    "isAnswer": false,
+                    "uuid": "b9-q42-c5-uuid"
+                },
+                {
+                    "choice": "Microsoft Defender for Cloud",
+                    "isAnswer": false,
+                    "uuid": "b9-q42-c6-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Microsoft Trust Center</h3><p>The <b>Microsoft Trust Center</b> is the central resource for learning about Microsoft's approach to security, privacy, and compliance. It hosts audit reports and compliance certifications.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:00:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:00:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Compliance & Trust",
+                "topic": "Management & Governance",
+                "uuid": "b9-q42-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_042"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which specialized Azure environment is designed specifically to meet the strict security and compliance requirements of US federal, state, and local government agencies?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure China",
+                    "isAnswer": false,
+                    "uuid": "b9-q43-c1-uuid"
+                },
+                {
+                    "choice": "Azure Government",
+                    "isAnswer": true,
+                    "uuid": "b9-q43-c2-uuid"
+                },
+                {
+                    "choice": "Azure Private Link",
+                    "isAnswer": false,
+                    "uuid": "b9-q43-c3-uuid"
+                },
+                {
+                    "choice": "Azure Front Door",
+                    "isAnswer": false,
+                    "uuid": "b9-q43-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Government</h3><p><b>Azure Government</b> is a sovereign cloud environment physically separated from non-government instances, dedicated to US government workloads and their partners to meet strict compliance requirements.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:00:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:00:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Compliance & Trust",
+                "topic": "Management & Governance",
+                "uuid": "b9-q43-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_043"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which of the following are valid examples of Azure Sovereign Regions? (Select two)"
+                    }
+                ],
+                "question_type": "multiple_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Germany",
+                    "isAnswer": false,
+                    "uuid": "b9-q44-c1-uuid"
+                },
+                {
+                    "choice": "Azure Government (US)",
+                    "isAnswer": true,
+                    "uuid": "b9-q44-c2-uuid"
+                },
+                {
+                    "choice": "Azure China",
+                    "isAnswer": true,
+                    "uuid": "b9-q44-c3-uuid"
+                },
+                {
+                    "choice": "Azure Canada",
+                    "isAnswer": false,
+                    "uuid": "b9-q44-c4-uuid"
+                },
+                {
+                    "choice": "Azure Brazil",
+                    "isAnswer": false,
+                    "uuid": "b9-q44-c5-uuid"
+                },
+                {
+                    "choice": "Azure Australia",
+                    "isAnswer": false,
+                    "uuid": "b9-q44-c6-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answers: Azure Government (US) and Azure China</h3><p><b>Azure Government</b> and <b>Azure China</b> (operated by 21Vianet) are examples of sovereign regions that are physically and logically separated from the main Azure global cloud to meet specific national compliance regulations.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:00:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:00:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Compliance & Trust",
+                "topic": "Management & Governance",
+                "uuid": "b9-q44-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_044"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Your team needs to estimate the cost savings of migrating your on-premises datacenter to Azure. Which tool is best suited for this calculation?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Pricing Calculator",
+                    "isAnswer": false,
+                    "uuid": "b9-q45-c1-uuid"
+                },
+                {
+                    "choice": "Total Cost of Ownership (TCO) Calculator",
+                    "isAnswer": true,
+                    "uuid": "b9-q45-c2-uuid"
+                },
+                {
+                    "choice": "Cost Management + Billing",
+                    "isAnswer": false,
+                    "uuid": "b9-q45-c3-uuid"
+                },
+                {
+                    "choice": "Azure Advisor",
+                    "isAnswer": false,
+                    "uuid": "b9-q45-c4-uuid"
+                },
+                {
+                    "choice": "Azure Arc",
+                    "isAnswer": false,
+                    "uuid": "b9-q45-c5-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Total Cost of Ownership (TCO) Calculator</h3><p>The <b>TCO Calculator</b> is designed to estimate the cost savings you can realize by migrating your workloads to Azure. It compares your on-premises costs (datacenter, electricity, labor) with Azure costs.</p><p><i>Azure Pricing Calculator</i> is for estimating the cost of specific Azure services <i>after</i> migration.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:00:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:00:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Cost Management",
+                "topic": "Management & Governance",
+                "uuid": "b9-q45-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_045"
+        }
+    }
+]

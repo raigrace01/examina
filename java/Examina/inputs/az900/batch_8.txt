@@ -1,0 +1,252 @@
+[
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "hard",
+                "question_data": [
+                    {
+                        "text": "Which Microsoft Entra ID feature uses 'signals' such as user location, device compliance, and application sensitivity to make automated access decisions (e.g., 'Allow', 'Block', or 'Require MFA')?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Multi-Factor Authentication (MFA)",
+                    "isAnswer": false,
+                    "uuid": "b8-q36-c1-uuid"
+                },
+                {
+                    "choice": "Conditional Access",
+                    "isAnswer": true,
+                    "uuid": "b8-q36-c2-uuid"
+                },
+                {
+                    "choice": "Role-Based Access Control (RBAC)",
+                    "isAnswer": false,
+                    "uuid": "b8-q36-c3-uuid"
+                },
+                {
+                    "choice": "Identity Protection",
+                    "isAnswer": false,
+                    "uuid": "b8-q36-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Conditional Access</h3><p><b>Conditional Access</b> policies act as an 'if-then' statement. It analyzes signals (who, where, what device) to enforce decisions (allow access, require MFA, or block access) <i>before</i> granting access to a resource.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:50:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:50:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Identity Services",
+                "topic": "Azure Architecture",
+                "uuid": "b8-q36-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_036"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "To protect your application against the failure of a single datacenter, you deploy it across multiple physically separate datacenters within the same Azure Region. Each datacenter has independent power, cooling, and networking. What is this configuration called?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Availability Sets",
+                    "isAnswer": false,
+                    "uuid": "b8-q37-c1-uuid"
+                },
+                {
+                    "choice": "Availability Zones",
+                    "isAnswer": true,
+                    "uuid": "b8-q37-c2-uuid"
+                },
+                {
+                    "choice": "Region Pairs",
+                    "isAnswer": false,
+                    "uuid": "b8-q37-c3-uuid"
+                },
+                {
+                    "choice": "Resource Groups",
+                    "isAnswer": false,
+                    "uuid": "b8-q37-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Availability Zones</h3><p><b>Availability Zones</b> are physically separate datacenters within the same Azure region. They protect against datacenter-level failures. If one zone goes down, the others continue to function.</p><p><i>Availability Sets</i> protect against rack-level failures within a single datacenter.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:50:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:50:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Regions & Availability Zones",
+                "topic": "Azure Architecture",
+                "uuid": "b8-q37-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_037"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which Azure concept involves a relationship between two Azure regions within the same geography (usually at least 300 miles apart) to provide disaster recovery capabilities?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Availability Zones",
+                    "isAnswer": false,
+                    "uuid": "b8-q38-c1-uuid"
+                },
+                {
+                    "choice": "Region Pairs",
+                    "isAnswer": true,
+                    "uuid": "b8-q38-c2-uuid"
+                },
+                {
+                    "choice": "Sovereign Regions",
+                    "isAnswer": false,
+                    "uuid": "b8-q38-c3-uuid"
+                },
+                {
+                    "choice": "ExpressRoute Circuits",
+                    "isAnswer": false,
+                    "uuid": "b8-q38-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Region Pairs</h3><p>A <b>Region Pair</b> consists of two regions within the same geography. Azure serializes platform updates (maintenance) to only one region in the pair at a time to ensure availability. In the event of a broad outage, recovery of one region is prioritized.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:50:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:50:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Regions & Availability Zones",
+                "topic": "Azure Architecture",
+                "uuid": "b8-q38-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_038"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Your company wants to migrate an on-premises Microsoft SQL Server database to Azure SQL Database with minimal downtime. Which service is specifically designed for this task?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Data Box",
+                    "isAnswer": false,
+                    "uuid": "b8-q39-c1-uuid"
+                },
+                {
+                    "choice": "Azure Database Migration Service",
+                    "isAnswer": true,
+                    "uuid": "b8-q39-c2-uuid"
+                },
+                {
+                    "choice": "AzCopy",
+                    "isAnswer": false,
+                    "uuid": "b8-q39-c3-uuid"
+                },
+                {
+                    "choice": "Azure Site Recovery",
+                    "isAnswer": false,
+                    "uuid": "b8-q39-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Database Migration Service</h3><p><b>Azure Database Migration Service</b> is a fully managed service designed to enable seamless migrations from multiple database sources to Azure data platforms with minimal downtime.</p><p><i>Azure Data Box</i> is for moving massive amounts of offline data, not live database migration.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:50:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:50:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Migration Services",
+                "topic": "Azure Architecture",
+                "uuid": "b8-q39-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_039"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Which solution allows you to transfer huge amounts of data (e.g., 100 TB) to Azure by shipping physical storage devices to a Microsoft datacenter?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure ExpressRoute",
+                    "isAnswer": false,
+                    "uuid": "b8-q40-c1-uuid"
+                },
+                {
+                    "choice": "Azure Data Box",
+                    "isAnswer": true,
+                    "uuid": "b8-q40-c2-uuid"
+                },
+                {
+                    "choice": "Azure File Sync",
+                    "isAnswer": false,
+                    "uuid": "b8-q40-c3-uuid"
+                },
+                {
+                    "choice": "Azure VPN Gateway",
+                    "isAnswer": false,
+                    "uuid": "b8-q40-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Data Box</h3><p><b>Azure Data Box</b> provides a physical storage device that you order from Microsoft. You copy your data to the device and ship it back to Microsoft, where they upload it to your storage account. This is ideal for large datasets where network transfer would take too long.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:50:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:50:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Migration Services",
+                "topic": "Azure Architecture",
+                "uuid": "b8-q40-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_040"
+        }
+    }
+]

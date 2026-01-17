@@ -21,6 +21,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.concurrent.ExecutionException;
 
@@ -39,7 +42,24 @@ public class MainParser {
                 .build();
         FirebaseApp.initializeApp(options);
         db = FirestoreClient.getFirestore();
-        parser.insertEntries("batch_1.txt");
+
+        //Entire path
+        Path basedir = Paths.get("inputs\\az900");
+        Files.list(basedir).forEach(path -> parser.insertEntries(path));
+
+
+
+
+        //Individual path
+        //parser.insertEntries(Paths.get("inputs\\az900\\batch_1.txt"));
+
+
+
+
+
+
+        //parser.insertEntries("inputs\\az900\\batch_1.txt");
+        /*
         parser.insertEntries("batch_2.txt");
         parser.insertEntries("batch_3.txt");
         parser.insertEntries("batch_4.txt");
@@ -50,11 +70,13 @@ public class MainParser {
         parser.insertEntries("batch_9.txt");
         parser.insertEntries("batch_10.txt");
 
+         */
+
     }
 
 
 
-    public void insertEntries(String filename){
+    public void insertEntries(Path path){
         logger.info("log level {}",logger.getLevel());
         logger.info("Starting application...");
         ObjectMapper mapper = new ObjectMapper();
@@ -63,7 +85,9 @@ public class MainParser {
 
         try {
             // Ensure this matches your actual file name
-            File file = new File("D:\\ryan\\examina\\az900\\"+filename);
+            //Path path = Paths.get(filename);
+            //File file = new File("D:\\ryan\\examina\\az900\\"+filename);
+            File file = path.toFile();
 
             // Parse the JSON array into a List of ExamEntry objects
             List<ExamEntry> examEntries = mapper.readValue(file, new TypeReference<List<ExamEntry>>(){});
@@ -147,7 +171,7 @@ public class MainParser {
                 qs.ref = newDocRef;
                 qs.topic=newQuestionData.other_info.topic;
                 qs.sub_topic=newQuestionData.other_info.sub_topic;
-                docRefaz900.update("questions", FieldValue.arrayUnion(newDocRef));
+                //docRefaz900.update("questions", FieldValue.arrayUnion(newDocRef));
                 docRefaz900.update("question_short_info", FieldValue.arrayUnion(qs));
 
 

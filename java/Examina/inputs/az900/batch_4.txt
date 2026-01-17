@@ -1,0 +1,252 @@
+[
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "A company wants to deploy a group of identical, load-balanced virtual machines (VMs) that automatically increase or decrease based on demand. Which Azure Compute service should they use?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Virtual Machine Scale Sets",
+                    "isAnswer": true,
+                    "uuid": "b4-q16-c1-uuid"
+                },
+                {
+                    "choice": "Azure Availability Sets",
+                    "isAnswer": false,
+                    "uuid": "b4-q16-c2-uuid"
+                },
+                {
+                    "choice": "Azure App Service",
+                    "isAnswer": false,
+                    "uuid": "b4-q16-c3-uuid"
+                },
+                {
+                    "choice": "Azure Dedicated Host",
+                    "isAnswer": false,
+                    "uuid": "b4-q16-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Virtual Machine Scale Sets</h3><p><b>Azure Virtual Machine Scale Sets</b> allow you to create and manage a group of load-balanced VMs. The number of VM instances can automatically increase or decrease in response to demand or a defined schedule.</p><p><i>Availability Sets</i> improve reliability but do not provide autoscaling capabilities. <i>Azure App Service</i> is for hosting web apps, not managing clusters of VMs.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Compute Services",
+                "topic": "Azure Architecture",
+                "uuid": "b4-q16-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_016"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Which Azure compute service is considered 'serverless' and allows you to run small pieces of code (functions) without managing the underlying infrastructure?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Virtual Machines",
+                    "isAnswer": false,
+                    "uuid": "b4-q17-c1-uuid"
+                },
+                {
+                    "choice": "Azure Functions",
+                    "isAnswer": true,
+                    "uuid": "b4-q17-c2-uuid"
+                },
+                {
+                    "choice": "Azure Kubernetes Service (AKS)",
+                    "isAnswer": false,
+                    "uuid": "b4-q17-c3-uuid"
+                },
+                {
+                    "choice": "Azure Virtual Desktop",
+                    "isAnswer": false,
+                    "uuid": "b4-q17-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Functions</h3><p><b>Azure Functions</b> is a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure.</p><p><i>Azure Virtual Machines</i> and <i>AKS</i> require you to manage the underlying OS or cluster configurations to varying degrees.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Compute Services",
+                "topic": "Azure Architecture",
+                "uuid": "b4-q17-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_017"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "You need to store data in Azure Blob Storage that will be accessed very rarely (e.g., once every 180 days or longer). Which access tier offers the lowest storage cost?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Hot tier",
+                    "isAnswer": false,
+                    "uuid": "b4-q18-c1-uuid"
+                },
+                {
+                    "choice": "Cool tier",
+                    "isAnswer": false,
+                    "uuid": "b4-q18-c2-uuid"
+                },
+                {
+                    "choice": "Archive tier",
+                    "isAnswer": true,
+                    "uuid": "b4-q18-c3-uuid"
+                },
+                {
+                    "choice": "Premium tier",
+                    "isAnswer": false,
+                    "uuid": "b4-q18-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Archive tier</h3><p>The <b>Archive tier</b> is optimized for storing data that is rarely accessed and stored for at least 180 days with flexible latency requirements. It offers the lowest storage costs but the highest retrieval costs.</p><p><i>Hot tier</i> is for frequently accessed data, and <i>Cool tier</i> is for data accessed infrequently (at least 30 days).</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Storage Services",
+                "topic": "Azure Architecture",
+                "uuid": "b4-q18-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_018"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Which Azure Storage service provides fully managed file shares in the cloud that are accessible via the industry-standard Server Message Block (SMB) protocol?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Blob Storage",
+                    "isAnswer": false,
+                    "uuid": "b4-q19-c1-uuid"
+                },
+                {
+                    "choice": "Azure Files",
+                    "isAnswer": true,
+                    "uuid": "b4-q19-c2-uuid"
+                },
+                {
+                    "choice": "Azure Disk Storage",
+                    "isAnswer": false,
+                    "uuid": "b4-q19-c3-uuid"
+                },
+                {
+                    "choice": "Azure Queue Storage",
+                    "isAnswer": false,
+                    "uuid": "b4-q19-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Files</h3><p><b>Azure Files</b> offers fully managed file shares in the cloud that are accessible via the industry-standard Server Message Block (SMB) protocol. You can mount these shares concurrently on cloud or on-premises deployments.</p><p><i>Azure Blob Storage</i> is for unstructured object data, while <i>Azure Disk Storage</i> provides virtual disks for VMs.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Storage Services",
+                "topic": "Azure Architecture",
+                "uuid": "b4-q19-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_019"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Your organization requires users to provide more than one form of verification (such as a password and a code sent to a mobile device) to access applications. What is this security process called?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Single Sign-On (SSO)",
+                    "isAnswer": false,
+                    "uuid": "b4-q20-c1-uuid"
+                },
+                {
+                    "choice": "Multifactor Authentication (MFA)",
+                    "isAnswer": true,
+                    "uuid": "b4-q20-c2-uuid"
+                },
+                {
+                    "choice": "Conditional Access",
+                    "isAnswer": false,
+                    "uuid": "b4-q20-c3-uuid"
+                },
+                {
+                    "choice": "Role-Based Access Control (RBAC)",
+                    "isAnswer": false,
+                    "uuid": "b4-q20-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Multifactor Authentication (MFA)</h3><p><b>Multifactor Authentication (MFA)</b> is a process where a user is prompted during the sign-in process for an additional form of identification, such as entering a code on their cellphone or providing a fingerprint scan.</p><p><i>SSO</i> allows users to sign in once to access multiple apps, but does not inherently require multiple factors.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Access Management",
+                "topic": "Azure Architecture",
+                "uuid": "b4-q20-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_020"
+        }
+    }
+]

@@ -7,7 +7,7 @@ import dev.langchain4j.model.googleai.GoogleAiGeminiChatModel;
 import java.time.Duration;
 
 public class MyGenAI {
-    private String GEMINI_KEY = "AIzaSyDoLQrRAPgg7BMxRReSJHQQYtnNRBXjCFo";
+    private String GEMINI_KEY = "";
     private String PROJECT_NAME="projects/329930347212";
     private String AI_MODEL = "gemini-3-pro-preview";
 

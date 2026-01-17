@@ -44,6 +44,13 @@ public class DeleteAZ900Test {
             ApiFuture<WriteResult> future = docRefaz900.update("questions", FieldValue.delete());
             WriteResult writeResult = future.get();
             System.out.println("Update time:" + writeResult.getUpdateTime());
+
+            future=docRefaz900.update("question_short_info", FieldValue.delete());
+            writeResult = future.get();
+            System.out.println("Update time:" + writeResult.getUpdateTime());
+
+
+
         }
         catch(Exception e){
             System.out.println(e);

@@ -1,0 +1,252 @@
+[
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which factor primarily affects costs in Azure for consumers using a consumption-based model?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "The location of the user accessing the service",
+                    "isAnswer": false,
+                    "uuid": "b6-q26-c1-uuid"
+                },
+                {
+                    "choice": "The number of global datacenters Microsoft operates",
+                    "isAnswer": false,
+                    "uuid": "b6-q26-c2-uuid"
+                },
+                {
+                    "choice": "Resource usage (e.g., compute hours, storage used, data transfer)",
+                    "isAnswer": true,
+                    "uuid": "b6-q26-c3-uuid"
+                },
+                {
+                    "choice": "The duration of the Enterprise Agreement",
+                    "isAnswer": false,
+                    "uuid": "b6-q26-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Resource usage</h3><p>In a <b>consumption-based model</b> (OpEx), you are charged for what you use. Key factors include resource type, settings, Azure region, and actual usage metrics like compute hours or data transfer.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:30:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:30:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Cost Management",
+                "topic": "Management & Governance",
+                "uuid": "b6-q26-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_026"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Your organization wants to ensure that no one in the IT department accidentally deletes a critical production database. Which Azure feature should you apply to the database resource?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Policy",
+                    "isAnswer": false,
+                    "uuid": "b6-q27-c1-uuid"
+                },
+                {
+                    "choice": "Resource Lock",
+                    "isAnswer": true,
+                    "uuid": "b6-q27-c2-uuid"
+                },
+                {
+                    "choice": "Azure Blueprint",
+                    "isAnswer": false,
+                    "uuid": "b6-q27-c3-uuid"
+                },
+                {
+                    "choice": "Role-Based Access Control (RBAC)",
+                    "isAnswer": false,
+                    "uuid": "b6-q27-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Resource Lock</h3><p><b>Resource Locks</b> prevent accidental deletion or modification of Azure resources. A <i>CanNotDelete</i> lock allows authorized users to read and modify a resource, but not delete it.</p><p><i>RBAC</i> controls access permissions but does not specifically prevent accidental deletion by someone who <i>has</i> permission.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:30:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:30:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Governance Tools",
+                "topic": "Management & Governance",
+                "uuid": "b6-q27-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_027"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Which Azure service allows you to define and enforce rules for resources, such as restricting deployment to specific Azure regions or requiring specific tags?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Policy",
+                    "isAnswer": true,
+                    "uuid": "b6-q28-c1-uuid"
+                },
+                {
+                    "choice": "Azure Monitor",
+                    "isAnswer": false,
+                    "uuid": "b6-q28-c2-uuid"
+                },
+                {
+                    "choice": "Azure Advisor",
+                    "isAnswer": false,
+                    "uuid": "b6-q28-c3-uuid"
+                },
+                {
+                    "choice": "Network Security Groups",
+                    "isAnswer": false,
+                    "uuid": "b6-q28-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Policy</h3><p><b>Azure Policy</b> is a service used to create, assign, and manage policies. These policies enforce different rules and effects over your resources, ensuring they stay compliant with your corporate standards and SLAs.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:30:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:30:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Governance Tools",
+                "topic": "Management & Governance",
+                "uuid": "b6-q28-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_028"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "You want to categorize resources for billing and management purposes by adding metadata (name-value pairs) such as 'Environment: Production' or 'Department: Finance'. What feature should you use?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Resource Groups",
+                    "isAnswer": false,
+                    "uuid": "b6-q29-c1-uuid"
+                },
+                {
+                    "choice": "Tags",
+                    "isAnswer": true,
+                    "uuid": "b6-q29-c2-uuid"
+                },
+                {
+                    "choice": "Locks",
+                    "isAnswer": false,
+                    "uuid": "b6-q29-c3-uuid"
+                },
+                {
+                    "choice": "Policies",
+                    "isAnswer": false,
+                    "uuid": "b6-q29-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Tags</h3><p><b>Tags</b> are name/value pairs that enable you to categorize resources and view consolidated billing by applying the same tag to multiple resources and resource groups.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:30:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:30:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Governance Tools",
+                "topic": "Management & Governance",
+                "uuid": "b6-q29-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_029"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which service notifies you about Azure service incidents and planned maintenance that might affect your resources specifically?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Monitor",
+                    "isAnswer": false,
+                    "uuid": "b6-q30-c1-uuid"
+                },
+                {
+                    "choice": "Azure Service Health",
+                    "isAnswer": true,
+                    "uuid": "b6-q30-c2-uuid"
+                },
+                {
+                    "choice": "Microsoft Defender for Cloud",
+                    "isAnswer": false,
+                    "uuid": "b6-q30-c3-uuid"
+                },
+                {
+                    "choice": "Azure Advisor",
+                    "isAnswer": false,
+                    "uuid": "b6-q30-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Service Health</h3><p><b>Azure Service Health</b> provides personalized alerts and guidance when Azure service issues allow you to prepare for planned maintenance and changes that could affect the availability of your resources.</p><p><i>Azure Monitor</i> collects telemetry data from your own applications and resources, while <i>Service Health</i> tracks the status of the Azure platform itself.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:30:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:30:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Monitoring Tools",
+                "topic": "Management & Governance",
+                "uuid": "b6-q30-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_030"
+        }
+    }
+]

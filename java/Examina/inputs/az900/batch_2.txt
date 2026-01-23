@@ -1,0 +1,271 @@
+[
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "easy",
+        "question_data": [
+          {
+            "text": "Which Azure architectural component is defined as a specific geographical location containing one or more datacenters with independent power, cooling, and networking?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Azure Region",
+          "isAnswer": true,
+          "uuid": "b2-q6-c1-uuid"
+        },
+        {
+          "choice": "Availability Zone",
+          "isAnswer": false,
+          "uuid": "b2-q6-c2-uuid"
+        },
+        {
+          "choice": "Resource Group",
+          "isAnswer": false,
+          "uuid": "b2-q6-c3-uuid"
+        },
+        {
+          "choice": "Geography",
+          "isAnswer": false,
+          "uuid": "b2-q6-c4-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Azure Region</h3><p>An <b>Azure Region</b> is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.</p><p><i>Availability Zones</i> are locations <u>within</u> a region. A <i>Geography</i> contains multiple regions.</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 03:50:00 PM PST",
+        "date_modified": "January 7, 2026 at 03:50:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Regions & Availability Zones",
+        "topic": "Azure Architecture",
+        "uuid": "b2-q6-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_006"
+    }
+  },
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "medium",
+        "question_data": [
+          {
+            "text": "You want to protect your virtual machines from a datacenter failure within the same region. Which configuration should you use to ensure your service remains available if one specific datacenter goes offline?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Availability Sets",
+          "isAnswer": false,
+          "uuid": "b2-q7-c1-uuid"
+        },
+        {
+          "choice": "Availability Zones",
+          "isAnswer": true,
+          "uuid": "b2-q7-c2-uuid"
+        },
+        {
+          "choice": "Region Pairing",
+          "isAnswer": false,
+          "uuid": "b2-q7-c3-uuid"
+        },
+        {
+          "choice": "Azure Site Recovery",
+          "isAnswer": false,
+          "uuid": "b2-q7-c4-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Availability Zones</h3><p><b>Availability Zones</b> are physically separate datacenters within the same Azure region. Each zone has independent power, cooling, and networking.</p><p>If one zone (datacenter) fails, the others continue to function. <i>Availability Sets</i> only protect against hardware failures within a <u>single</u> datacenter (rack failures).</p></body></html>",
+        "images": [
+            ""
+        ]
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 03:55:00 PM PST",
+        "date_modified": "January 7, 2026 at 03:55:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Regions & Availability Zones",
+        "topic": "Azure Architecture",
+        "uuid": "b2-q7-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_007"
+    }
+  },
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "medium",
+        "question_data": [
+          {
+            "text": "Which logical container is used to group related Azure resources together so they can be managed as a single entity for lifecycle, billing, and access control?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Management Group",
+          "isAnswer": false,
+          "uuid": "b2-q8-c1-uuid"
+        },
+        {
+          "choice": "Azure Subscription",
+          "isAnswer": false,
+          "uuid": "b2-q8-c2-uuid"
+        },
+        {
+          "choice": "Resource Group",
+          "isAnswer": true,
+          "uuid": "b2-q8-c3-uuid"
+        },
+        {
+          "choice": "Azure Active Directory",
+          "isAnswer": false,
+          "uuid": "b2-q8-c4-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Resource Group</h3><p>A <b>Resource Group</b> is a container that holds related resources for an Azure solution. You can deploy, update, and delete all resources in the group in a single operation.</p><p><i>Management Groups</i> are for governing multiple subscriptions, not individual resources.</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 04:00:00 PM PST",
+        "date_modified": "January 7, 2026 at 04:00:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Azure Resources",
+        "topic": "Azure Architecture",
+        "uuid": "b2-q8-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_008"
+    }
+  },
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "hard",
+        "question_data": [
+          {
+            "text": "Your company needs to privately connect two Azure Virtual Networks (VNETs) located in the same region so that virtual machines in both networks can communicate with each other directly with low latency. Which service should you configure?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "VNet Peering",
+          "isAnswer": true,
+          "uuid": "b2-q9-c1-uuid"
+        },
+        {
+          "choice": "VPN Gateway",
+          "isAnswer": false,
+          "uuid": "b2-q9-c2-uuid"
+        },
+        {
+          "choice": "ExpressRoute",
+          "isAnswer": false,
+          "uuid": "b2-q9-c3-uuid"
+        },
+        {
+          "choice": "Azure Load Balancer",
+          "isAnswer": false,
+          "uuid": "b2-q9-c4-uuid"
+        },
+        {
+          "choice": "Azure Application Gateway",
+          "isAnswer": false,
+          "uuid": "b2-q9-c5-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: VNet Peering</h3><p><b>VNet Peering</b> allows you to connect two virtual networks seamlessly. The traffic between the virtual machines in the peered virtual networks uses the Microsoft backbone infrastructure.</p><p>While <i>VPN Gateway</i> can connect VNets, it is slower and typically used for hybrid connections or encryption requirements, not for low-latency internal linking.</p></body></html>",
+        "images": [
+            ""
+        ]
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 04:05:00 PM PST",
+        "date_modified": "January 7, 2026 at 04:05:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Networking Services",
+        "topic": "Azure Architecture",
+        "uuid": "b2-q9-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_009"
+    }
+  },
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "very_hard",
+        "question_data": [
+          {
+            "text": "You are designing a storage strategy for a legal firm that needs to store data for 7 years to meet compliance requirements. The data will rarely be accessed (once every few years). Which two characteristics apply to the 'Archive' access tier in Azure Blob Storage? (Select Two)"
+          }
+        ],
+        "question_type": "multiple_answer"
+      },
+      "choices": [
+        {
+          "choice": "It has the lowest storage cost.",
+          "isAnswer": true,
+          "uuid": "b2-q10-c1-uuid"
+        },
+        {
+          "choice": "It has the highest storage cost.",
+          "isAnswer": false,
+          "uuid": "b2-q10-c2-uuid"
+        },
+        {
+          "choice": "It has the highest data rehydration (retrieval) cost.",
+          "isAnswer": true,
+          "uuid": "b2-q10-c3-uuid"
+        },
+        {
+          "choice": "Data is available for immediate read/write access.",
+          "isAnswer": false,
+          "uuid": "b2-q10-c4-uuid"
+        },
+        {
+          "choice": "It has a 99.99% availability SLA for immediate access.",
+          "isAnswer": false,
+          "uuid": "b2-q10-c5-uuid"
+        },
+        {
+          "choice": "It is the default tier for all new storage accounts.",
+          "isAnswer": false,
+          "uuid": "b2-q10-c6-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answers: Lowest storage cost & Highest retrieval cost</h3><p>The <b>Archive Tier</b> is optimized for data that is rarely accessed.</p><ul><li><b>Lowest Storage Cost:</b> It is the cheapest tier to store data at rest.</li><li><b>Highest Retrieval Cost:</b> You pay a premium to 'rehydrate' (retrieve) the data.</li></ul><p><i>Note:</i> Data in Archive is offline and takes hours to become accessible (rehydrated).</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 04:10:00 PM PST",
+        "date_modified": "January 7, 2026 at 04:10:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Storage Services",
+        "topic": "Azure Architecture",
+        "uuid": "b2-q10-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_010"
+    }
+  }
+]

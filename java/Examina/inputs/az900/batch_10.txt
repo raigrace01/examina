@@ -1,0 +1,277 @@
+[
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Which Azure service is a Platform as a Service (PaaS) offering designed specifically for hosting web applications, REST APIs, and mobile back ends?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Virtual Machines",
+                    "isAnswer": false,
+                    "uuid": "b10-q46-c1-uuid"
+                },
+                {
+                    "choice": "Azure App Service",
+                    "isAnswer": true,
+                    "uuid": "b10-q46-c2-uuid"
+                },
+                {
+                    "choice": "Azure Kubernetes Service",
+                    "isAnswer": false,
+                    "uuid": "b10-q46-c3-uuid"
+                },
+                {
+                    "choice": "Azure Batch",
+                    "isAnswer": false,
+                    "uuid": "b10-q46-c4-uuid"
+                },
+                {
+                    "choice": "Azure Logic Apps",
+                    "isAnswer": false,
+                    "uuid": "b10-q46-c5-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure App Service</h3><p><b>Azure App Service</b> is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. It offers auto-scaling and high availability without managing the infrastructure.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "App Hosting Services",
+                "topic": "Azure Architecture",
+                "uuid": "b10-q46-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_046"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "You need to deploy a containerized application quickly without provisioning virtual machines or adopting a higher-level orchestrator. Which service is the simplest option?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Container Instances (ACI)",
+                    "isAnswer": true,
+                    "uuid": "b10-q47-c1-uuid"
+                },
+                {
+                    "choice": "Azure Kubernetes Service (AKS)",
+                    "isAnswer": false,
+                    "uuid": "b10-q47-c2-uuid"
+                },
+                {
+                    "choice": "Azure Service Fabric",
+                    "isAnswer": false,
+                    "uuid": "b10-q47-c3-uuid"
+                },
+                {
+                    "choice": "Azure Functions",
+                    "isAnswer": false,
+                    "uuid": "b10-q47-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Container Instances (ACI)</h3><p><b>Azure Container Instances (ACI)</b> offers the fastest and simplest way to run a container in Azure, without having to manage any virtual machines and without having to adopt a higher-level service like Kubernetes.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "App Hosting Services",
+                "topic": "Azure Architecture",
+                "uuid": "b10-q47-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_047"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which service is a complete orchestration system for automating deployment, scaling, and management of containerized applications?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Container Apps",
+                    "isAnswer": false,
+                    "uuid": "b10-q48-c1-uuid"
+                },
+                {
+                    "choice": "Azure Kubernetes Service (AKS)",
+                    "isAnswer": true,
+                    "uuid": "b10-q48-c2-uuid"
+                },
+                {
+                    "choice": "Azure Container Registry",
+                    "isAnswer": false,
+                    "uuid": "b10-q48-c3-uuid"
+                },
+                {
+                    "choice": "Azure Virtual Desktop",
+                    "isAnswer": false,
+                    "uuid": "b10-q48-c4-uuid"
+                },
+                {
+                    "choice": "Azure VM Scale Sets",
+                    "isAnswer": false,
+                    "uuid": "b10-q48-c5-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Kubernetes Service (AKS)</h3><p><b>Azure Kubernetes Service (AKS)</b> allows you to deploy and manage a cluster of VMs (nodes) to run containerized applications. It handles complex tasks like orchestration, auto-scaling, and self-healing of containers.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "App Hosting Services",
+                "topic": "Azure Architecture",
+                "uuid": "b10-q48-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_048"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Your application needs to store application secrets, encryption keys, and SSL certificates securely. Which Azure service should you use to centrally manage these secrets?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Key Vault",
+                    "isAnswer": true,
+                    "uuid": "b10-q49-c1-uuid"
+                },
+                {
+                    "choice": "Azure Storage Account",
+                    "isAnswer": false,
+                    "uuid": "b10-q49-c2-uuid"
+                },
+                {
+                    "choice": "Azure Information Protection",
+                    "isAnswer": false,
+                    "uuid": "b10-q49-c3-uuid"
+                },
+                {
+                    "choice": "Microsoft Sentinel",
+                    "isAnswer": false,
+                    "uuid": "b10-q49-c4-uuid"
+                },
+                {
+                    "choice": "Azure Dedicated Host",
+                    "isAnswer": false,
+                    "uuid": "b10-q49-c5-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Key Vault</h3><p><b>Azure Key Vault</b> is a centralized cloud service for storing application secrets (passwords), encryption keys, and certificates. It helps control access to sensitive data and separates security management from application development.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Security Tools",
+                "topic": "Management & Governance",
+                "uuid": "b10-q49-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_049"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "hard",
+                "question_data": [
+                    {
+                        "text": "Which cloud-native SIEM (Security Information and Event Management) and SOAR (Security Orchestration, Automation, and Response) solution is used to analyze security logs across your entire enterprise?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Monitor",
+                    "isAnswer": false,
+                    "uuid": "b10-q50-c1-uuid"
+                },
+                {
+                    "choice": "Microsoft Sentinel",
+                    "isAnswer": true,
+                    "uuid": "b10-q50-c2-uuid"
+                },
+                {
+                    "choice": "Microsoft Defender for Cloud",
+                    "isAnswer": false,
+                    "uuid": "b10-q50-c3-uuid"
+                },
+                {
+                    "choice": "Network Watcher",
+                    "isAnswer": false,
+                    "uuid": "b10-q50-c4-uuid"
+                },
+                {
+                    "choice": "Application Insights",
+                    "isAnswer": false,
+                    "uuid": "b10-q50-c5-uuid"
+                },
+                {
+                    "choice": "Log Analytics",
+                    "isAnswer": false,
+                    "uuid": "b10-q50-c6-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Microsoft Sentinel</h3><p><b>Microsoft Sentinel</b> (formerly Azure Sentinel) is a scalable, cloud-native, SIEM and SOAR solution. It delivers intelligent security analytics and threat intelligence across the enterprise.</p><p><i>Defender for Cloud</i> focuses on security posture and threat protection for specific workloads, while Sentinel focuses on log analysis and incident response across the whole organization.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 06:10:00 PM PST",
+                "date_modified": "January 7, 2026 at 06:10:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Security Tools",
+                "topic": "Management & Governance",
+                "uuid": "b10-q50-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_050"
+        }
+    }
+]

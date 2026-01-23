@@ -1,0 +1,252 @@
+[
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which Azure service enables you to create a logically isolated section of the Azure cloud where you can launch Azure resources in a virtual network that you define?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Virtual Network (VNet)",
+                    "isAnswer": true,
+                    "uuid": "b5-q21-c1-uuid"
+                },
+                {
+                    "choice": "Azure ExpressRoute",
+                    "isAnswer": false,
+                    "uuid": "b5-q21-c2-uuid"
+                },
+                {
+                    "choice": "Azure DNS",
+                    "isAnswer": false,
+                    "uuid": "b5-q21-c3-uuid"
+                },
+                {
+                    "choice": "Azure Content Delivery Network (CDN)",
+                    "isAnswer": false,
+                    "uuid": "b5-q21-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Virtual Network (VNet)</h3><p><b>Azure Virtual Network (VNet)</b> is the fundamental building block for your private network in Azure. It enables many types of Azure resources to securely communicate with each other, the internet, and on-premises networks.</p><p><i>ExpressRoute</i> is a connectivity service, not the network itself.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:20:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:20:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Networking Services",
+                "topic": "Azure Architecture",
+                "uuid": "b5-q21-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_021"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Your company needs a secure, encrypted connection between its on-premises network and an Azure Virtual Network over the public internet. Which service should you choose?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure ExpressRoute",
+                    "isAnswer": false,
+                    "uuid": "b5-q22-c1-uuid"
+                },
+                {
+                    "choice": "Azure VPN Gateway",
+                    "isAnswer": true,
+                    "uuid": "b5-q22-c2-uuid"
+                },
+                {
+                    "choice": "Azure Traffic Manager",
+                    "isAnswer": false,
+                    "uuid": "b5-q22-c3-uuid"
+                },
+                {
+                    "choice": "Azure Private Link",
+                    "isAnswer": false,
+                    "uuid": "b5-q22-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure VPN Gateway</h3><p><b>Azure VPN Gateway</b> is used to send encrypted traffic between an Azure virtual network and an on-premises location over the public internet.</p><p><i>Azure ExpressRoute</i> provides a private connection that does NOT go over the public internet.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:20:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:20:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Networking Services",
+                "topic": "Azure Architecture",
+                "uuid": "b5-q22-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_022"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which Azure networking service provides a dedicated, private connection between your on-premises infrastructure and Azure datacenters, bypassing the public internet entirely?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure VPN Gateway",
+                    "isAnswer": false,
+                    "uuid": "b5-q23-c1-uuid"
+                },
+                {
+                    "choice": "Azure Application Gateway",
+                    "isAnswer": false,
+                    "uuid": "b5-q23-c2-uuid"
+                },
+                {
+                    "choice": "Azure ExpressRoute",
+                    "isAnswer": true,
+                    "uuid": "b5-q23-c3-uuid"
+                },
+                {
+                    "choice": "Azure Front Door",
+                    "isAnswer": false,
+                    "uuid": "b5-q23-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure ExpressRoute</h3><p><b>Azure ExpressRoute</b> lets you extend your on-premises networks into the Microsoft cloud over a private connection with the help of a connectivity provider. This connection does not go over the public internet and offers higher security and reliability.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:20:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:20:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Networking Services",
+                "topic": "Azure Architecture",
+                "uuid": "b5-q23-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_023"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "What should you use to filter network traffic to and from Azure resources in an Azure Virtual Network based on source IP, destination IP, port, and protocol?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure DDoS Protection",
+                    "isAnswer": false,
+                    "uuid": "b5-q24-c1-uuid"
+                },
+                {
+                    "choice": "Network Security Group (NSG)",
+                    "isAnswer": true,
+                    "uuid": "b5-q24-c2-uuid"
+                },
+                {
+                    "choice": "Azure Active Directory",
+                    "isAnswer": false,
+                    "uuid": "b5-q24-c3-uuid"
+                },
+                {
+                    "choice": "Azure Sentinel",
+                    "isAnswer": false,
+                    "uuid": "b5-q24-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Network Security Group (NSG)</h3><p>A <b>Network Security Group (NSG)</b> contains security rules that allow or deny inbound network traffic to, or outbound network traffic from, several types of Azure resources.</p><p><i>DDoS Protection</i> protects against denial of service attacks, but isn't for general traffic filtering rules.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:20:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:20:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Network Security",
+                "topic": "Azure Architecture",
+                "uuid": "b5-q24-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_024"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "You need to connect two separate Azure Virtual Networks (VNets) located in the same region so that resources in both networks can communicate with each other using the Microsoft backbone network. What feature should you use?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "VNet Peering",
+                    "isAnswer": true,
+                    "uuid": "b5-q25-c1-uuid"
+                },
+                {
+                    "choice": "VPN Gateway",
+                    "isAnswer": false,
+                    "uuid": "b5-q25-c2-uuid"
+                },
+                {
+                    "choice": "Azure Bastion",
+                    "isAnswer": false,
+                    "uuid": "b5-q25-c3-uuid"
+                },
+                {
+                    "choice": "Azure Load Balancer",
+                    "isAnswer": false,
+                    "uuid": "b5-q25-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: VNet Peering</h3><p><b>VNet Peering</b> enables you to seamlessly connect two or more Virtual Networks in Azure. The virtual networks appear as one for connectivity purposes, and traffic is routed through the Microsoft private backbone infrastructure.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:20:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:20:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Networking Services",
+                "topic": "Azure Architecture",
+                "uuid": "b5-q25-main-uuid"
+            },
+            "question_ref": "/question/azure_arch_025"
+        }
+    }
+]

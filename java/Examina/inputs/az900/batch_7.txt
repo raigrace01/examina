@@ -1,0 +1,252 @@
+[
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which deployment tool allows you to define the infrastructure and configuration for your Azure solution using a JSON-based file (Infrastructure as Code)?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Arc",
+                    "isAnswer": false,
+                    "uuid": "b7-q31-c1-uuid"
+                },
+                {
+                    "choice": "Azure Resource Manager (ARM) Templates",
+                    "isAnswer": true,
+                    "uuid": "b7-q31-c2-uuid"
+                },
+                {
+                    "choice": "Azure Power Apps",
+                    "isAnswer": false,
+                    "uuid": "b7-q31-c3-uuid"
+                },
+                {
+                    "choice": "Azure Advisor",
+                    "isAnswer": false,
+                    "uuid": "b7-q31-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Azure Resource Manager (ARM) Templates</h3><p><b>ARM Templates</b> are JSON files that define the infrastructure and configuration for your project. They allow you to deploy, manage, and monitor all the resources for your solution as a group, rather than handling these resources individually.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:40:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:40:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Deployment Tools",
+                "topic": "Management & Governance",
+                "uuid": "b7-q31-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_031"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "Which tool provides a unified infrastructure security management system that strengthens the security posture of your data centers (both in Azure and on-premises) and provides advanced threat protection?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Azure Key Vault",
+                    "isAnswer": false,
+                    "uuid": "b7-q32-c1-uuid"
+                },
+                {
+                    "choice": "Microsoft Defender for Cloud",
+                    "isAnswer": true,
+                    "uuid": "b7-q32-c2-uuid"
+                },
+                {
+                    "choice": "Azure Sentinel",
+                    "isAnswer": false,
+                    "uuid": "b7-q32-c3-uuid"
+                },
+                {
+                    "choice": "Application Gateway",
+                    "isAnswer": false,
+                    "uuid": "b7-q32-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Microsoft Defender for Cloud</h3><p><b>Microsoft Defender for Cloud</b> (formerly Azure Security Center) is a tool for security posture management and threat protection. It protects workloads running in Azure, on-premises, and in other clouds.</p><p><i>Azure Sentinel</i> is primarily a SIEM/SOAR solution for analyzing logs and responding to incidents.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:40:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:40:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Security Tools",
+                "topic": "Management & Governance",
+                "uuid": "b7-q32-main-uuid"
+            },
+            "question_ref": "/question/mgmt_gov_032"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "medium",
+                "question_data": [
+                    {
+                        "text": "In the Shared Responsibility Model, who is responsible for patching the Guest Operating System when using Infrastructure as a Service (IaaS)?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "The Cloud Provider (Microsoft)",
+                    "isAnswer": false,
+                    "uuid": "b7-q33-c1-uuid"
+                },
+                {
+                    "choice": "The Customer",
+                    "isAnswer": true,
+                    "uuid": "b7-q33-c2-uuid"
+                },
+                {
+                    "choice": "Shared Responsibility",
+                    "isAnswer": false,
+                    "uuid": "b7-q33-c3-uuid"
+                },
+                {
+                    "choice": "A Third-Party Auditor",
+                    "isAnswer": false,
+                    "uuid": "b7-q33-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: The Customer</h3><p>In an <b>IaaS</b> model (like Azure VMs), the customer is responsible for the operating system, including updates and patches. Microsoft manages the physical hardware and virtualization layer.</p><p>In <i>PaaS</i> and <i>SaaS</i>, the provider takes on more responsibility for the OS.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:40:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:40:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Shared Responsibility Model",
+                "topic": "Cloud Concepts",
+                "uuid": "b7-q33-main-uuid"
+            },
+            "question_ref": "/question/cloud_concepts_033"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Buying physical servers and installing them in your own datacenter is an example of which type of expenditure?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Operational Expenditure (OpEx)",
+                    "isAnswer": false,
+                    "uuid": "b7-q34-c1-uuid"
+                },
+                {
+                    "choice": "Capital Expenditure (CapEx)",
+                    "isAnswer": true,
+                    "uuid": "b7-q34-c2-uuid"
+                },
+                {
+                    "choice": "Consumption-Based Model",
+                    "isAnswer": false,
+                    "uuid": "b7-q34-c3-uuid"
+                },
+                {
+                    "choice": "Elastic Expenditure",
+                    "isAnswer": false,
+                    "uuid": "b7-q34-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Capital Expenditure (CapEx)</h3><p><b>Capital Expenditure (CapEx)</b> is the up-front spending of money on physical infrastructure, which is then deducted over time. This contrasts with OpEx, where you pay for services as you use them.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:40:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:40:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "CapEx vs OpEx",
+                "topic": "Cloud Concepts",
+                "uuid": "b7-q34-main-uuid"
+            },
+            "question_ref": "/question/cloud_concepts_034"
+        }
+    },
+    {
+        "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+        "question_data": {
+            "basic_info": {
+                "difficulty": "easy",
+                "question_data": [
+                    {
+                        "text": "Which cloud service model would you use if you want to deploy a web application quickly without managing the underlying operating system or web server software updates?"
+                    }
+                ],
+                "question_type": "single_answer"
+            },
+            "choices": [
+                {
+                    "choice": "Infrastructure as a Service (IaaS)",
+                    "isAnswer": false,
+                    "uuid": "b7-q35-c1-uuid"
+                },
+                {
+                    "choice": "Platform as a Service (PaaS)",
+                    "isAnswer": true,
+                    "uuid": "b7-q35-c2-uuid"
+                },
+                {
+                    "choice": "Software as a Service (SaaS)",
+                    "isAnswer": false,
+                    "uuid": "b7-q35-c3-uuid"
+                },
+                {
+                    "choice": "Desktop as a Service (DaaS)",
+                    "isAnswer": false,
+                    "uuid": "b7-q35-c4-uuid"
+                }
+            ],
+            "explanation": {
+                "html_text": "<html><body><h3>Correct Answer: Platform as a Service (PaaS)</h3><p><b>Platform as a Service (PaaS)</b> provides a managed environment for building, testing, and deploying software applications. The provider manages the underlying infrastructure (OS, middleware, runtime), allowing you to focus solely on your application code.</p></body></html>",
+                "images": []
+            },
+            "other_info": {
+                "data_added": "January 7, 2026 at 05:40:00 PM PST",
+                "date_modified": "January 7, 2026 at 05:40:00 PM PST",
+                "source": "ai_generated",
+                "status": "published",
+                "sub_topic": "Cloud Service Models",
+                "topic": "Cloud Concepts",
+                "uuid": "b7-q35-main-uuid"
+            },
+            "question_ref": "/question/cloud_concepts_035"
+        }
+    }
+]

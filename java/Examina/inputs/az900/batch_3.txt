@@ -1,0 +1,267 @@
+[
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "easy",
+        "question_data": [
+          {
+            "text": "Which Microsoft cloud-based identity and access management service allows your employees to sign in and access external resources like Microsoft 365, as well as internal applications?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Active Directory Domain Services (AD DS)",
+          "isAnswer": false,
+          "uuid": "b3-q11-c1-uuid"
+        },
+        {
+          "choice": "Microsoft Entra ID (formerly Azure Active Directory)",
+          "isAnswer": true,
+          "uuid": "b3-q11-c2-uuid"
+        },
+        {
+          "choice": "Azure Policy",
+          "isAnswer": false,
+          "uuid": "b3-q11-c3-uuid"
+        },
+        {
+          "choice": "Azure Identity Protection",
+          "isAnswer": false,
+          "uuid": "b3-q11-c4-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Microsoft Entra ID</h3><p><b>Microsoft Entra ID</b> (formerly Azure AD) is Microsoft's cloud-based identity and access management service. It manages user identities and controls access to resources.</p><p><i>AD DS</i> is the traditional on-premises identity service (Windows Server).</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 05:00:00 PM PST",
+        "date_modified": "January 7, 2026 at 05:00:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Identity Services",
+        "topic": "Azure Architecture",
+        "uuid": "b3-q11-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_011"
+    }
+  },
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "medium",
+        "question_data": [
+          {
+            "text": "Your company wants to migrate a legacy application to Azure. The application relies on the SMB (Server Message Block) protocol to access shared files on a network drive. Which Azure storage service should you use to support this requirement without changing the application code?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Azure Blob Storage",
+          "isAnswer": false,
+          "uuid": "b3-q12-c1-uuid"
+        },
+        {
+          "choice": "Azure Files",
+          "isAnswer": true,
+          "uuid": "b3-q12-c2-uuid"
+        },
+        {
+          "choice": "Azure Disk Storage",
+          "isAnswer": false,
+          "uuid": "b3-q12-c3-uuid"
+        },
+        {
+          "choice": "Azure Data Box",
+          "isAnswer": false,
+          "uuid": "b3-q12-c4-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Azure Files</h3><p><b>Azure Files</b> offers fully managed file shares in the cloud that are accessible via the industry-standard <b>SMB protocol</b>. You can mount these file shares on Windows, Linux, or macOS just like an on-premises file share.</p><p><i>Blob Storage</i> is for unstructured object data (like images/videos) and does not natively support SMB mounting for legacy apps.</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 05:05:00 PM PST",
+        "date_modified": "January 7, 2026 at 05:05:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Storage Services",
+        "topic": "Azure Architecture",
+        "uuid": "b3-q12-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_012"
+    }
+  },
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "medium",
+        "question_data": [
+          {
+            "text": "You need to run a small containerized application for a specific task that takes a few minutes to complete. You do not want to manage any virtual machines or a full container orchestration cluster. Which compute option is best suited for this scenario?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Azure Virtual Machines",
+          "isAnswer": false,
+          "uuid": "b3-q13-c1-uuid"
+        },
+        {
+          "choice": "Azure Kubernetes Service (AKS)",
+          "isAnswer": false,
+          "uuid": "b3-q13-c2-uuid"
+        },
+        {
+          "choice": "Azure Container Instances (ACI)",
+          "isAnswer": true,
+          "uuid": "b3-q13-c3-uuid"
+        },
+        {
+          "choice": "Azure Dedicated Host",
+          "isAnswer": false,
+          "uuid": "b3-q13-c4-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Azure Container Instances (ACI)</h3><p><b>Azure Container Instances (ACI)</b> is the fastest and simplest way to run a container in Azure. It is a <i>Serverless</i> container solution perfect for short-lived tasks or simple apps where you don't need the complexity of Kubernetes.</p><p><i>AKS</i> is a full orchestrator for complex, multi-container environments.</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 05:10:00 PM PST",
+        "date_modified": "January 7, 2026 at 05:10:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Compute Services",
+        "topic": "Azure Architecture",
+        "uuid": "b3-q13-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_013"
+    }
+  },
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "hard",
+        "question_data": [
+          {
+            "text": "A banking organization requires a dedicated, private connection between their on-premises datacenter and Azure. The connection must not traverse the public internet and must offer guaranteed bandwidth and reliability SLA. Which networking service should they choose?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Azure VPN Gateway",
+          "isAnswer": false,
+          "uuid": "b3-q14-c1-uuid"
+        },
+        {
+          "choice": "Azure ExpressRoute",
+          "isAnswer": true,
+          "uuid": "b3-q14-c2-uuid"
+        },
+        {
+          "choice": "Azure DNS",
+          "isAnswer": false,
+          "uuid": "b3-q14-c3-uuid"
+        },
+        {
+          "choice": "VNet Peering",
+          "isAnswer": false,
+          "uuid": "b3-q14-c4-uuid"
+        },
+        {
+          "choice": "Azure Content Delivery Network (CDN)",
+          "isAnswer": false,
+          "uuid": "b3-q14-c5-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Azure ExpressRoute</h3><p><b>Azure ExpressRoute</b> lets you extend your on-premises networks into the Microsoft cloud over a <i>private connection</i> facilitated by a connectivity provider. ExpressRoute connections <u>do not go over the public internet</u>.</p><p><i>VPN Gateway</i> sends encrypted traffic over the public internet, which does not guarantee bandwidth or latency in the same way.</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 05:15:00 PM PST",
+        "date_modified": "January 7, 2026 at 05:15:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Networking Services",
+        "topic": "Azure Architecture",
+        "uuid": "b3-q14-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_014"
+    }
+  },
+  {
+    "exam_ref": "/exam/LOLovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "very_hard",
+        "question_data": [
+          {
+            "text": "You are designing an event-driven solution to process data files as soon as they are uploaded. You want a 'serverless' compute model where you only pay for the time the code runs, and the platform handles all scaling automatically. Which two services fit this requirement? (Select Two)"
+          }
+        ],
+        "question_type": "multiple_answer"
+      },
+      "choices": [
+        {
+          "choice": "Azure Functions",
+          "isAnswer": true,
+          "uuid": "b3-q15-c1-uuid"
+        },
+        {
+          "choice": "Azure Virtual Machines",
+          "isAnswer": false,
+          "uuid": "b3-q15-c2-uuid"
+        },
+        {
+          "choice": "Azure Logic Apps",
+          "isAnswer": true,
+          "uuid": "b3-q15-c3-uuid"
+        },
+        {
+          "choice": "Azure Kubernetes Service (AKS)",
+          "isAnswer": false,
+          "uuid": "b3-q15-c4-uuid"
+        },
+        {
+          "choice": "Azure App Service (Standard Plan)",
+          "isAnswer": false,
+          "uuid": "b3-q15-c5-uuid"
+        },
+        {
+          "choice": "Azure SQL Database",
+          "isAnswer": false,
+          "uuid": "b3-q15-c6-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answers: Azure Functions & Azure Logic Apps</h3><p>Both <b>Azure Functions</b> (Function-as-a-Service) and <b>Azure Logic Apps</b> (Workflow-as-a-Service) are <b>Serverless</b> offerings.</p><ul><li><b>Functions:</b> You write code (C#, Python, etc.) that triggers on events.</li><li><b>Logic Apps:</b> You build visual workflows that trigger on events.</li></ul><p>In both cases, you pay only per execution/action, and scaling is automatic.</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 7, 2026 at 05:20:00 PM PST",
+        "date_modified": "January 7, 2026 at 05:20:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Compute Services",
+        "topic": "Azure Architecture",
+        "uuid": "b3-q15-main-uuid"
+      },
+      "question_ref": "/question/azure_arch_015"
+    }
+  }
+]

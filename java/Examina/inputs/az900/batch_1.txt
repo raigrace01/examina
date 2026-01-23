@@ -1,0 +1,267 @@
+[
+  {
+    "exam_ref": "/exam/L0LovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "medium",
+        "question_data": [
+          {
+            "text": "Your company is planning to migrate to Azure. The CFO is concerned about the financial model change. Which term describes the spending model where you pay for cloud services as you use them, rather than paying upfront for infrastructure?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Capital Expenditure (CapEx)",
+          "isAnswer": false,
+          "uuid": "b1-q1-c1-uuid"
+        },
+        {
+          "choice": "Operational Expenditure (OpEx)",
+          "isAnswer": true,
+          "uuid": "b1-q1-c2-uuid"
+        },
+        {
+          "choice": "Upfront Cost Model",
+          "isAnswer": false,
+          "uuid": "b1-q1-c3-uuid"
+        },
+        {
+          "choice": "Fixed Cost Model",
+          "isAnswer": false,
+          "uuid": "b1-q1-c4-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Operational Expenditure (OpEx)</h3><p><b>Operational Expenditure (OpEx)</b> is the spending model where you pay for services or products as you use them. This is often referred to as the <i>pay-as-you-go</i> model.</p><h4>Key Differences:</h4><ul><li><b>OpEx:</b> No upfront cost. You pay monthly or annually based on usage.</li><li><b>CapEx:</b> Requires significant upfront investment in physical infrastructure (like data centers and servers), which is then deducted over time as a tax expense.</li></ul></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 5, 2026 at 05:00:00 PM PST",
+        "date_modified": "January 5, 2026 at 05:00:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "CapEx vs OpEx",
+        "topic": "Cloud Concepts",
+        "uuid": "b1-q1-main-uuid"
+      },
+      "question_ref": "/question/cloud_concept_001"
+    }
+  },
+  {
+    "exam_ref": "/exam/L0LovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "easy",
+        "question_data": [
+          {
+            "text": "Which cloud computing benefit describes the ability of a system to remain operational and accessible even in the event of component failures or regional outages?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Scalability",
+          "isAnswer": false,
+          "uuid": "b1-q2-c1-uuid"
+        },
+        {
+          "choice": "Elasticity",
+          "isAnswer": false,
+          "uuid": "b1-q2-c2-uuid"
+        },
+        {
+          "choice": "High Availability",
+          "isAnswer": true,
+          "uuid": "b1-q2-c3-uuid"
+        },
+        {
+          "choice": "Agility",
+          "isAnswer": false,
+          "uuid": "b1-q2-c4-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: High Availability</h3><p><b>High Availability (HA)</b> focuses on ensuring that services are running and accessible for the maximum possible time, minimizing downtime during failures.</p><h4>Why the others are incorrect:</h4><p><u>Scalability</u> refers to the ability to handle increased load.<br><u>Elasticity</u> is the ability to automatically scale resources up or down.<br><u>Agility</u> refers to the speed at which you can deploy new applications.</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 5, 2026 at 05:05:00 PM PST",
+        "date_modified": "January 5, 2026 at 05:05:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Benefits of Cloud Services",
+        "topic": "Cloud Concepts",
+        "uuid": "b1-q2-main-uuid"
+      },
+      "question_ref": "/question/cloud_concept_002"
+    }
+  },
+  {
+    "exam_ref": "/exam/L0LovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "hard",
+        "question_data": [
+          {
+            "text": "A financial institution requires strict data sovereignty and compliance. They need to keep legacy database servers in their own on-premises datacenter due to regulatory laws but want to use Azure for front-end web hosting to handle global traffic. Which deployment model should they choose?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "Public Cloud",
+          "isAnswer": false,
+          "uuid": "b1-q3-c1-uuid"
+        },
+        {
+          "choice": "Private Cloud",
+          "isAnswer": false,
+          "uuid": "b1-q3-c2-uuid"
+        },
+        {
+          "choice": "Hybrid Cloud",
+          "isAnswer": true,
+          "uuid": "b1-q3-c3-uuid"
+        },
+        {
+          "choice": "Community Cloud",
+          "isAnswer": false,
+          "uuid": "b1-q3-c4-uuid"
+        },
+        {
+          "choice": "Multi-Cloud",
+          "isAnswer": false,
+          "uuid": "b1-q3-c5-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Hybrid Cloud</h3><p>A <b>Hybrid Cloud</b> is the only deployment model that allows for a connection between a <i>private cloud</i> (on-premises datacenter) and a <i>public cloud</i> (Azure).</p><p>This setup is perfect for scenarios requiring:</p><ul><li><b>Compliance:</b> Keeping sensitive data on-premises.</li><li><b>Flexibility:</b> Using the public cloud for scalable web hosting.</li></ul></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 5, 2026 at 05:10:00 PM PST",
+        "date_modified": "January 5, 2026 at 05:10:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Cloud Deployment Models",
+        "topic": "Cloud Concepts",
+        "uuid": "b1-q3-main-uuid"
+      },
+      "question_ref": "/question/cloud_concept_003"
+    }
+  },
+  {
+    "exam_ref": "/exam/L0LovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "medium",
+        "question_data": [
+          {
+            "text": "Which of the following statements accurately describes the 'Consumption-Based Model' in cloud computing?"
+          }
+        ],
+        "question_type": "single_answer"
+      },
+      "choices": [
+        {
+          "choice": "You pay a fixed monthly fee regardless of usage.",
+          "isAnswer": false,
+          "uuid": "b1-q4-c1-uuid"
+        },
+        {
+          "choice": "You only pay for the resources that you actually use.",
+          "isAnswer": true,
+          "uuid": "b1-q4-c2-uuid"
+        },
+        {
+          "choice": "You must pay for hardware installation costs.",
+          "isAnswer": false,
+          "uuid": "b1-q4-c3-uuid"
+        },
+        {
+          "choice": "You need to reserve capacity one year in advance.",
+          "isAnswer": false,
+          "uuid": "b1-q4-c4-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answer: Pay for what you use</h3><p>In a <b>Consumption-Based Model</b>, users are charged <u>only for the resources they actually use</u> (e.g., CPU cycles, storage space).</p><h4>Benefits:</h4><ul><li><b>No upfront costs:</b> You don't buy the hardware.</li><li><b>Cost efficiency:</b> You stop paying the moment you shut down the resource.</li></ul></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 5, 2026 at 05:15:00 PM PST",
+        "date_modified": "January 5, 2026 at 05:15:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Consumption-Based Model",
+        "topic": "Cloud Concepts",
+        "uuid": "b1-q4-main-uuid"
+      },
+      "question_ref": "/question/cloud_concept_004"
+    }
+  },
+  {
+    "exam_ref": "/exam/L0LovBZcFZT17UHsREHB",
+    "question_data": {
+      "basic_info": {
+        "difficulty": "very_hard",
+        "question_data": [
+          {
+            "text": "A startup wants to focus purely on coding their new serverless application. They do not want to manage operating systems, patching, or scaling configurations. Which two cloud service categories are most suitable for this requirement? (Select Two)"
+          }
+        ],
+        "question_type": "multiple_answer"
+      },
+      "choices": [
+        {
+          "choice": "Infrastructure as a Service (IaaS)",
+          "isAnswer": false,
+          "uuid": "b1-q5-c1-uuid"
+        },
+        {
+          "choice": "Platform as a Service (PaaS)",
+          "isAnswer": true,
+          "uuid": "b1-q5-c2-uuid"
+        },
+        {
+          "choice": "Software as a Service (SaaS)",
+          "isAnswer": false,
+          "uuid": "b1-q5-c3-uuid"
+        },
+        {
+          "choice": "Serverless Computing",
+          "isAnswer": true,
+          "uuid": "b1-q5-c4-uuid"
+        },
+        {
+          "choice": "Desktop as a Service (DaaS)",
+          "isAnswer": false,
+          "uuid": "b1-q5-c5-uuid"
+        },
+        {
+          "choice": "Bare Metal as a Service",
+          "isAnswer": false,
+          "uuid": "b1-q5-c6-uuid"
+        }
+      ],
+      "explanation": {
+        "html_text": "<html><body><h3>Correct Answers: PaaS and Serverless</h3><p>Both <b>PaaS (Platform as a Service)</b> and <b>Serverless Computing</b> are designed to abstract the underlying infrastructure from the developer.</p><h4>Why?</h4><p>They handle <i>OS management, patching, and scaling</i> automatically, allowing the team to focus purely on <u>code and business logic</u>.</p><p><i>IaaS</i> (like Virtual Machines) requires manual OS management.</p></body></html>",
+        "images": []
+      },
+      "other_info": {
+        "data_added": "January 5, 2026 at 05:20:00 PM PST",
+        "date_modified": "January 5, 2026 at 05:20:00 PM PST",
+        "source": "ai_generated",
+        "status": "published",
+        "sub_topic": "Cloud Service Models",
+        "topic": "Cloud Concepts",
+        "uuid": "b1-q5-main-uuid"
+      },
+      "question_ref": "/question/cloud_concept_005"
+    }
+  }
+]
